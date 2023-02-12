@@ -189,8 +189,7 @@ print("Hello fellow knight owl")
 # Diff
 **Code**
 
-```
-Diff
+```diff  
 - This line is Deleted.
-+ This line is added.
++ This line is Added.
 ```
