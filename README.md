@@ -1,3 +1,12 @@
+# Comment
+**Code**  
+```
+<!--Comment-->
+```
+**Result**  
+<!--Comment-->
+[Note: This code is used for commenting in Markdown.No output will be provided ]
+
 # Heading Tags
 **Code**   
 
@@ -34,3 +43,107 @@ _italic_
 ```
 **Result**  
 **Bold**
+
+# Strick Through
+**Code**  
+```
+~~Strick Through~~
+```
+**Result**  
+~~Strick Through~~
+
+# Horizontal Line
+**Code**  
+```
+---
+or
+___
+```
+**Result**
+
+---
+___
+
+# Block Quotes
+**Code**  
+```
+>This is a Block Quotes
+```
+**Result**
+>This is a Block Quotes
+
+# Links
+**Code**  
+```
+[Google](https://www.google.com/)
+```
+**Result**  
+[Google](https://www.google.com/)
+
+# Lists
+## Unordered lists
+**Code**  
+```
+* i1  
+* i2 
+    * i3
+```
+**Result**  
+* i1  
+* i2 
+    * i3
+
+## Ordered list
+**Code**  
+```
+1. i1  
+2. i2 
+3. i3
+```
+**Result**  
+1. i1
+2. i2
+3. i3
+
+# Inline Code Block
+
+**Code**  
+```
+`<p># h1</p>`
+```
+**Result**  
+`<p># h1</p>`
+
+# Image
+
+**Code**  
+```
+![Owl](owl.png)
+```
+**Result**  
+![Owl](owl.png)
+
+# Code Block
+
+**Code**  
+```
+    [Note: any code between 
+    ```
+        
+    ```
+    ]
+```
+**Result**  
+
+# Task list 
+**Code**
+```
+*[] not checked
+*[x] checked
+```
+**Result**
+
+* [ ] not checked
+* [x] checked 
+
+[Note: Previews in github website]
