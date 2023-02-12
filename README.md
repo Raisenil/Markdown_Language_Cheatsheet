@@ -151,19 +151,6 @@ print("Hello fellow knight owl")
 
 [Note: Previews in github website]
 
-# Task list 
-**Code**
-```
-*[] not checked
-*[x] checked
-```
-**Result**
-
-* [ ] not checked
-* [x] checked 
-
-[Note: Previews in github website]
-
 # Tables
 **Code**
 
