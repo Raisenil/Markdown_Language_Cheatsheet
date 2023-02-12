@@ -5,7 +5,7 @@
 ```
 **Result**  
 <!--Comment-->
-[Note: This code is used for commenting in Markdown.No output will be provided ]
+[Note: This code is used for commenting in Markdown.No output will show ]
 
 # Heading Tags
 **Code**   
