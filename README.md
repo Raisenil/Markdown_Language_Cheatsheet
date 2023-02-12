@@ -180,3 +180,52 @@ print("Hello fellow knight owl")
 - This line is Deleted.
 + This line is Added.
 ```
+
+# Nesting quotes
+
+**Code**
+```
+    > One.
+    >> One.
+    >>> One.
+
+    >>>> One.
+
+    >>>>> One.
+```
+
+**Result**
+
+> One.
+>> One.
+>>> One.
+
+>>>> One.
+
+>>>>> One.
+
+#Collapsible content
+**Code**
+```
+<details>
+    <summary>Click to see more!</summary>
+          
+     ## More awesome tips!
+    - item 1 
+    - item 2
+</details>
+```
+
+**Result**
+
+<details>
+    <summary>Click to see Owls!</summary>  
+    
+    Owl types
+        - Black Owl  
+        - Gray Owl
+</details>
+
+<!--This was made with the help of freeCodeCamp-->
+
+<!--Cheatsheet link: https://github.com/zairahira/Markdown-cheatsheet -->
