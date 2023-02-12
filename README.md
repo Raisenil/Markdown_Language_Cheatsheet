@@ -133,7 +133,10 @@ ___
     ```
     ]
 ```
-**Result**  
+**Result** 
+```python
+print("Hello fellow knight owl")
+```
 
 # Task list 
 **Code**
@@ -147,3 +150,47 @@ ___
 * [x] checked 
 
 [Note: Previews in github website]
+
+# Task list 
+**Code**
+```
+*[] not checked
+*[x] checked
+```
+**Result**
+
+* [ ] not checked
+* [x] checked 
+
+[Note: Previews in github website]
+
+# Tables
+**Code**
+
+```
+| Col 1 | Col 2 | Col 3 |
+| :---: | :--- | ---: |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+
+[Note: :---: means center aligned]
+[Note: ---: means right aligned]
+[Note: :--- means left aligned]
+```
+**Result**
+
+| Col 1 | Col 2 | Col 3 |
+| :---: | :--- | ---: |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+
+# Diff
+**Code**
+
+```
+Diff
+- This line is Deleted.
++ This line is added.
+```
