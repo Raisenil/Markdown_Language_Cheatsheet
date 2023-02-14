@@ -173,6 +173,67 @@ print("Hello fellow knight owl")
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
+extra:
+row or col marge is not possible in Markdown language but it support the use of **html and asci code** so we can make those kind of table using this language in .md file
+For example:  
+
+**Code**
+```
+<table>
+    <thead>
+        <tr>
+            <th>Layer 1</th>
+            <th>Layer 2</th>
+            <th>Layer 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>Layer 1</td>
+            <td rowspan=2>L2 Name A</td>
+            <td>L3 Name A</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody>
+</table>
+```
+**Result**  
+
+<table>
+    <thead>
+        <tr>
+            <th>Layer 1</th>
+            <th>Layer 2</th>
+            <th>Layer 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>Layer 1</td>
+            <td rowspan=2>L2 Name A</td>
+            <td>L3 Name A</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody>
+</table>
 # Diff
 **Code**
 
